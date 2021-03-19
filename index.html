@@ -16,24 +16,39 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-sm-8"></div>
+        <div class="col-sm-8">
+          <div id="estado" class="alert alert-primary" role="alert">
+            Toca "empezar" para jugar!
+          </div>
+        </div>
         <div class="col-sm-2">
           <p>Ronda #<strong>0</strong></p>
         </div>
         <div class="col-sm-2">
-          <button type="button" class="btn btn-primary">Empezar</button>
+          <button type="button" class="btn btn-primary" id="botonEmpezar">
+            Empezar
+          </button>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
         <div class="col-sm">
-          <div class="cuadro">A</div>
+          <div id="cuadro1" class="cuadro">A</div>
         </div>
         <div class="col-sm">
-          <div class="cuadro">B</div>
+          <div id="cuadro2" class="cuadro">B</div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm">
+          <div id="cuadro3" class="cuadro">C</div>
+        </div>
+        <div class="col-sm">
+          <div id="cuadro4" class="cuadro">D</div>
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
